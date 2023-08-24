@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.vertical-line {
+  transform: rotate(90deg);
+  width: 1px;
+  /* Set the height as per your requirement */
+  margin: 0 auto;
+  color: #61dafb;
+}
