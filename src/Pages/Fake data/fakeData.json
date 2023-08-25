@@ -1,0 +1,350 @@
+[
+  {
+    "name": "Luxury Resort",
+    "category": "beachFront",
+    "location": "Paradise Island",
+    "nightCost": 300,
+    "totalCost": 1500,
+    "freeDates": [
+      "2023-09-01",
+      "2023-09-02",
+      "2023-09-03"
+    ],
+    "ratingOutOf5": 4.8,
+    "images": [
+      "https://example.com/images/hotel1-1.jpg",
+      "https://example.com/images/hotel1-2.jpg",
+      "https://example.com/images/hotel1-3.jpg"
+    ]
+  },
+  {
+    "name": "Cozy Inn",
+    "category": "Lake front",
+    "location": "Mountain Retreat",
+    "nightCost": 100,
+    "totalCost": 500,
+    "freeDates": [
+      "2023-09-05",
+      "2023-09-06",
+      "2023-09-07"
+    ],
+    "ratingOutOf5": 4.2,
+    "images": [
+      "https://example.com/images/hotel2-1.jpg",
+      "https://example.com/images/hotel2-2.jpg"
+    ]
+  },
+  {
+    "name": "Beachfront Villa",
+    "category": "amazing view",
+    "location": "Tropical Beach",
+    "nightCost": 250,
+    "totalCost": 1250,
+    "freeDates": [
+      "2023-09-10",
+      "2023-09-11",
+      "2023-09-12"
+    ],
+    "ratingOutOf5": 4.6,
+    "images": [
+      "https://example.com/images/hotel3-1.jpg",
+      "https://example.com/images/hotel3-2.jpg",
+      "https://example.com/images/hotel3-3.jpg"
+    ]
+  },
+  {
+    "name": "City View Hotel",
+    "category": "mountain view",
+    "location": "Downtown Metropolis",
+    "nightCost": 120,
+    "totalCost": 600,
+    "freeDates": [
+      "2023-09-08",
+      "2023-09-09",
+      "2023-09-10"
+    ],
+    "ratingOutOf5": 4.0,
+    "images": [
+      "https://example.com/images/hotel4-1.jpg",
+      "https://example.com/images/hotel4-2.jpg"
+    ]
+  },
+  {
+    "name": "Riverside Lodge",
+    "category": "lake front",
+    "location": "Rural Countryside",
+    "nightCost": 80,
+    "totalCost": 400,
+    "freeDates": [
+      "2023-09-15",
+      "2023-09-16",
+      "2023-09-17"
+    ],
+    "ratingOutOf5": 3.5,
+    "images": [
+      "https://example.com/images/hotel5-1.jpg",
+      "https://example.com/images/hotel5-2.jpg"
+    ]
+  },
+  {
+    "name": "Seaside Retreat",
+    "category": "lake front",
+    "location": "Coastal Haven",
+    "nightCost": 220,
+    "totalCost": 1100,
+    "freeDates": [
+      "2023-09-20",
+      "2023-09-21",
+      "2023-09-22"
+    ],
+    "ratingOutOf5": 4.4,
+    "images": [
+      "https://example.com/images/hotel6-1.jpg",
+      "https://example.com/images/hotel6-2.jpg"
+    ]
+  },
+  {
+    "name": "Mountain Chalet",
+    "category": "amazing view",
+    "location": "Alpine Mountains",
+    "nightCost": 150,
+    "totalCost": 750,
+    "freeDates": [
+      "2023-09-25",
+      "2023-09-26",
+      "2023-09-27"
+    ],
+    "ratingOutOf5": 4.1,
+    "images": [
+      "https://example.com/images/hotel7-1.jpg",
+      "https://example.com/images/hotel7-2.jpg",
+      "https://example.com/images/hotel7-3.jpg"
+    ]
+  },
+  {
+    "name": "Historic Inn",
+    "category": "mountain view",
+    "location": "Old Town",
+    "nightCost": 110,
+    "totalCost": 550,
+    "freeDates": [
+      "2023-09-03",
+      "2023-09-04",
+      "2023-09-05"
+    ],
+    "ratingOutOf5": 3.9,
+    "images": [
+      "https://example.com/images/hotel8-1.jpg",
+      "https://example.com/images/hotel8-2.jpg"
+    ]
+  },
+  {
+    "name": "Ski Lodge",
+    "category": "mountain view",
+    "location": "Winter Wonderland",
+    "nightCost": 140,
+    "totalCost": 700,
+    "freeDates": [
+      "2023-09-12",
+      "2023-09-13",
+      "2023-09-14"
+    ],
+    "ratingOutOf5": 4.0,
+    "images": [
+      "https://example.com/images/hotel9-1.jpg",
+      "https://example.com/images/hotel9-2.jpg",
+      "https://example.com/images/hotel9-3.jpg"
+    ]
+  },
+  {
+    "name": "Desert Oasis Resort",
+    "category": "beachFront",
+    "location": "Sandy Dunes",
+    "nightCost": 180,
+    "totalCost": 900,
+    "freeDates": [
+      "2023-09-18",
+      "2023-09-19",
+      "2023-09-20"
+    ],
+    "ratingOutOf5": 4.3,
+    "images": [
+      "https://example.com/images/hotel10-1.jpg",
+      "https://example.com/images/hotel10-2.jpg"
+    ]
+  },
+  {
+    "name": "Lakefront Lodge",
+    "category": "lake front",
+    "location": "Lakeside Retreat",
+    "nightCost": 130,
+    "totalCost": 650,
+    "freeDates": [
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24"
+    ],
+    "ratingOutOf5": 4.0,
+    "images": [
+      "https://example.com/images/hotel11-1.jpg",
+      "https://example.com/images/hotel11-2.jpg"
+    ]
+  },
+  {
+    "name": "Downtown Boutique Hotel",
+    "category": "mountain view",
+    "location": "City Center",
+    "nightCost": 200,
+    "totalCost": 1000,
+    "freeDates": [
+      "2023-09-28",
+      "2023-09-29",
+      "2023-09-30"
+    ],
+    "ratingOutOf5": 4.5,
+    "images": [
+      "https://example.com/images/hotel12-1.jpg",
+      "https://example.com/images/hotel12-2.jpg",
+      "https://example.com/images/hotel12-3.jpg"
+    ]
+  },
+  {
+    "name": "Countryside Cottage",
+    "category": "amazing view",
+    "location": "Rural Farm",
+    "nightCost": 90,
+    "totalCost": 450,
+    "freeDates": [
+      "2023-10-05",
+      "2023-10-06",
+      "2023-10-07"
+    ],
+    "ratingOutOf5": 3.2,
+    "images": [
+      "https://example.com/images/hotel13-1.jpg",
+      "https://example.com/images/hotel13-2.jpg"
+    ]
+  },
+  {
+    "name": "Secluded Cabin",
+    "category": "beachFront",
+    "location": "Forest Retreat",
+    "nightCost": 110,
+    "totalCost": 550,
+    "freeDates": [
+      "2023-10-10",
+      "2023-10-11",
+      "2023-10-12"
+    ],
+    "ratingOutOf5": 3.8,
+    "images": [
+      "https://example.com/images/hotel14-1.jpg",
+      "https://example.com/images/hotel14-2.jpg",
+      "https://example.com/images/hotel14-3.jpg"
+    ]
+  },
+  {
+    "name": "Island Bungalow",
+    "category": "lake front",
+    "location": "Tropical Island",
+    "nightCost": 160,
+    "totalCost": 800,
+    "freeDates": [
+      "2023-10-15",
+      "2023-10-16",
+      "2023-10-17"
+    ],
+    "ratingOutOf5": 4.0,
+    "images": [
+      "https://example.com/images/hotel15-1.jpg",
+      "https://example.com/images/hotel15-2.jpg"
+    ]
+  },
+  {
+    "name": "Historic Mansion",
+    "category": "mountain view",
+    "location": "Old Town",
+    "nightCost": 220,
+    "totalCost": 1100,
+    "freeDates": [
+      "2023-10-20",
+      "2023-10-21",
+      "2023-10-22"
+    ],
+    "ratingOutOf5": 4.6,
+    "images": [
+      "https://example.com/images/hotel16-1.jpg",
+      "https://example.com/images/hotel16-2.jpg",
+      "https://example.com/images/hotel16-3.jpg"
+    ]
+  },
+  {
+    "name": "Ski Chalet",
+    "category": "mountain view",
+    "location": "Snowy Slopes",
+    "nightCost": 130,
+    "totalCost": 650,
+    "freeDates": [
+      "2023-10-25",
+      "2023-10-26",
+      "2023-10-27"
+    ],
+    "ratingOutOf5": 4.2,
+    "images": [
+      "https://example.com/images/hotel17-1.jpg",
+      "https://example.com/images/hotel17-2.jpg"
+    ]
+  },
+  {
+    "name": "Beachside Resort",
+    "category": "amazing view",
+    "location": "Sandy Shore",
+    "nightCost": 180,
+    "totalCost": 900,
+    "freeDates": [
+      "2023-10-30",
+      "2023-10-31",
+      "2023-11-01"
+    ],
+    "ratingOutOf5": 4.4,
+    "images": [
+      "https://example.com/images/hotel18-1.jpg",
+      "https://example.com/images/hotel18-2.jpg",
+      "https://example.com/images/hotel18-3.jpg"
+    ]
+  },
+  {
+    "name": "Mountain View Lodge",
+    "category": "mountain view",
+    "location": "Scenic Mountains",
+    "nightCost": 140,
+    "totalCost": 700,
+    "freeDates": [
+      "2023-11-05",
+      "2023-11-06",
+      "2023-11-07"
+    ],
+    "ratingOutOf5": 4.1,
+    "images": [
+      "https://example.com/images/hotel19-1.jpg",
+      "https://example.com/images/hotel19-2.jpg"
+    ]
+  },
+  {
+    "name": "Rustic Cabin",
+    "category": "ca",
+    "location": "Woodsy Retreat",
+    "nightCost": 100,
+    "totalCost": 500,
+    "freeDates": [
+      "2023-11-10",
+      "2023-11-11",
+      "2023-11-12"
+    ],
+    "ratingOutOf5": 3.4,
+    "images": [
+      "https://example.com/images/hotel20-1.jpg",
+      "https://example.com/images/hotel20-2.jpg"
+    ]
+  }
+]

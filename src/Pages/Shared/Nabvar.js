@@ -8,7 +8,7 @@ const Nabvar = () => {
     const [isModal, setIsModal] = useState(false)
 
     const dropdownRef = useRef();
-    const modalRef=useRef()
+    const modalRef = useRef()
     const handleButtonClick = () => {
         setShowDropdown(true);
         setIsModal(true)
@@ -30,10 +30,10 @@ const Nabvar = () => {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
                 closeModal();
             }
-           
+
 
         };
-        
+
         if (isModal) {
             document.addEventListener('mousedown', handleClickOutside);
         } else {
@@ -129,7 +129,7 @@ const Nabvar = () => {
                 </div>
             </div>
             {isModal && (
-                <div  className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
+                <div className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
                     <div class="w-screen max-w-md flex-auto  rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
                         <h1>amre hudai kn dekhai rakhsen</h1>
                     </div>

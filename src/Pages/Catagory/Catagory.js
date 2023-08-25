@@ -1,52 +1,54 @@
-import React, { useState } from 'react';
+
+import React, { useEffect, useState } from 'react';
+import Allhotel from '../Hooks/Allhotel';
 
 const Category = () => {
+    // const [products,setProducts]=Allhotel()
     const [activeButton, setActiveButton] = useState(null);
-  
 
-    const handleBeachFront = (category) => {
+    // console.log(products)
+    const handleCategory = (category) => {
         setActiveButton(category);
-        
-        
+        console.log(category)
     };
-    const handleLakeFront = (category) => {
+   /*  const handleLakeFront = (category) => {
         setActiveButton(category);
-       
+
     };
     const handleCabins = (category) => {
         setActiveButton(category);
     };
     const handleAmazingView = (category) => {
         setActiveButton(category);
-    };
+    }; */
 
     return (
-        <div className="grid grid-cols-4 justify-center ms-24 fixed w-full top-28">
+        <div className="grid grid-cols-4 bg-white justify-center py-6 ps-24  w-full top-28">
             <button
                 className={`${activeButton === 'BeachFront' ? 'border-b-2 border-black w-1/3' : 'hover:border-b-2 w-1/3'
                     }`}
-                onClick={() => handleBeachFront('BeachFront')}
+                onClick={() => handleCategory('BeachFront')}
             >
                 BeachFront
             </button>
             <button
                 className={`${activeButton === 'LakeFront' ? 'border-b-2 border-black w-1/3' : 'hover:border-b-2 w-1/3'
                     }`}
-                onClick={() => handleLakeFront('LakeFront')}
+                onClick={() => handleCategory('LakeFront')}
             >
                 LakeFront
             </button>
             <button
                 className={`${activeButton === 'Cabins' ? 'border-b-2 border-black w-1/3 ' : 'hover:border-b-2 w-1/3'
                     }`}
-                onClick={() => handleCabins('Cabins')}
+                onClick={() => handleCategory('Cabins')}
             >
                 Cabins
             </button>
             <button
                 className={`${activeButton === 'amazing view' ? 'border-b-2 border-black w-1/3' : 'hover:border-b-2 w-1/3'
                     }`}
-                onClick={() => handleAmazingView('amazing view')}
+                onClick={() => handleCategory('amazing view')}
             >
                 amazing view
             </button>
